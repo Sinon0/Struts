@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+                           <!-- Struts中picture的配置 -->
+<!-- picture的Action配置 -->
+<package name="picture" namespace="/picture" extends="all">
+   <action name="*" class="action.PictureAction" method="{1}">  
+   </action>
+</package>
+</struts>
